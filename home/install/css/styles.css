@@ -1,0 +1,213 @@
+/*===============================
+    Xavier Responsive Admin Theme
+    Author : Angry Frog
+================================= */
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic');
+
+html {
+    width: 100%;
+}
+body {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #3B3F40;
+    font-size: 13px;
+    color: #333333;
+    overflow-x: hidden;
+    width: 100%;
+    -ms-overflow-style: scrollbar;
+}
+a:link, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 24px;
+}
+/*===============================
+    LOGON PAGES
+================================= */
+.pen-title {
+    padding: 50px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #3399FF
+}
+.pen-title h1 {
+    margin: 0 0 20px;
+    font-size: 48px;
+    font-weight: 300;
+    color: #FFFFFF
+}
+.pen-title span {
+    font-size: 12px;
+}
+.pen-title .oi-x {
+    color: #3399FF;
+}
+.pen-title span a {
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.form-module {
+    position: relative;
+    background: #ffffff;
+    max-width: 750px;
+    width: 100%;
+    border-top: 5px solid #3399FF;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+.form-module .toggle {
+    cursor: pointer;
+    position: absolute;
+    top: -0;
+    right: -0;
+    background: #3399ff;
+    width: 80px;
+    height: 30px;
+    margin: -5px 0 0;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.form-module .toggle i {
+    margin-right: 6px;
+}
+.form-module .toggle .tooltip {
+    position: absolute;
+    top: 5px;
+    right: -65px;
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    width: auto;
+    padding: 5px;
+    font-size: 10px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.form-module .toggle .tooltip:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    display: block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid rgba(0, 0, 0, 0.6);
+}
+.form-module .form {
+    padding: 40px;
+    padding-top: 20px;
+}
+.form-module h2 {
+    margin: 0 0 20px;
+    color: #3399FF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+}
+.form-module input {
+    outline: none;
+    display: block;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    font-weight: 400;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.form-module input:focus {
+    border: 1px solid #3399FF;
+    color: #333333;
+}
+.form-module button {
+    cursor: pointer;
+    background: #3399FF;
+    width: 48%;
+    border: 0;
+    padding: 10px 15px;
+    color: #ffffff;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.form-module button:hover {
+    background: #178ab4;
+}
+.form-module .cta {
+    background: #f2f2f2;
+    width: 100%;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+}
+.form-module .cta a {
+    color: #333333;
+    text-decoration: none;
+}
+.form-module form {
+    margin-top: 20px;
+}
+#login-footer {
+    margin-top: 8px;
+}
+
+.success {
+    color: #348017;
+}
+.failure {
+    color: #ff0000;
+}
+#webroot_static {
+    font-size: 12px;
+}
+
+/*===============================
+    FORM ELEMENTS
+================================= */
+.form-control {
+    border-radius: 2px;
+    color: #626262;
+}
+.form-inline .form-control {
+    margin-right: 4px;
+}
+
+/* Nav tabs */
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:focus, 
+.nav-tabs > li.active > a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #3399FF;
+    border: 1px solid #ddd;
+}
+.nav-tabs > li.disabled > a {
+    margin-right: 6px;
+    line-height: 1.4285;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: #DCDCDC;
+}
+.nav-tabs > li.disabled > a:hover {
+    background-color: #CCCCCC;
+}
+.nav-tabs.form-sections {
+    margin-bottom: 20px;
+}
+
